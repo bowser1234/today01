@@ -102,7 +102,6 @@ class _ScrHome extends State<scrHome> {
                 padding: EdgeInsets.all(16),
                 child: Column(
                   children: [
-                    //Icon(Icons.wb_sunny, size: 80, color: Colors.orange),
                     SizedBox(height: 10),
                     Text("날씨 정보 표시",
                         style: TextStyle(fontSize: 18)),
