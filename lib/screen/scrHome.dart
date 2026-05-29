@@ -62,7 +62,7 @@ class _ScrHomeState extends State<scrHome> {
   }
 
 
-  final String kmaServiceKey = '420c81e6462e2f84a892e866441ec20ae6874f12f74eceaff64feb5978965f4e';
+  final String kmaServiceKey = 'key';
 
   @override
   void initState() {
@@ -221,7 +221,7 @@ class _ScrHomeState extends State<scrHome> {
   }
 
   Future<void> _fetchAIRecommendation(double temp, String weatherDesc) async {
-    const String aiApiKey = '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';
+    const String aiApiKey = 'key';
     final Uri aiUrl = Uri.parse('https://api.groq.com/openai/v1/chat/completions');
     const String modelName = 'llama-3.3-70b-versatile';
 
